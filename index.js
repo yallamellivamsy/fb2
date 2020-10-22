@@ -16,7 +16,7 @@ app.set('port', (port))
 app.use(bodyParser.urlencoded({extended: false}))
 app.use(bodyParser.json())
 
-// ROUTES
+// ROUTESs
 
 app.get('/', function(req, res) {
 	res.send("Hi I am a chatbot")
